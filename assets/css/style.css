@@ -109,9 +109,9 @@ h2 {
     padding-top: 30px;
     padding-left: 10px;
 
-    background-color: rgba(200, 100, 100, .7);
+    background-color: #a87600b3;
 
-    bottom: 30px;
+    bottom: 40px;
     right: 300px;
 
     position: absolute;
@@ -138,7 +138,6 @@ h2 {
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 }
 
 hr {
@@ -170,6 +169,30 @@ hr {
 .right-about-heading p {
     text-align: right;
 }
+
+#welcome {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 220%;
+}
+
+#container {
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    border-style: solid;
+    border-color: #a87600;
+    border-width: 1px;
+    border-radius: 15%;
+    margin: 0 auto;
+}
+
+#cover-bg {
+    background: url('../images/screenshot003.jpg') no-repeat center center;
+    height: 100%;
+    border-radius: 15%;
+}
+
 
 
 p {
