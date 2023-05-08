@@ -195,7 +195,8 @@ hr {
 
 
 
-p {
+p,
+h3 {
     font-size: 200%;
     line-height: 30px;
 }
