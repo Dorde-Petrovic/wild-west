@@ -56,12 +56,14 @@ h2 {
     border-bottom: 1px solid darkgoldenrod;
 }
 
-/* Hero image */
+/* Hero image and cover text */
 
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
 }
 
 #hero-image {
@@ -75,6 +77,11 @@ h2 {
     animation-fill-mode: forwards;
 }
 
+#cover-text,
+#cover-text h2 {
+    color: #fff;
+}
+
 /* creates the level of zoom for Hero image */
 
 @keyframes hero-zoom {
@@ -85,4 +92,26 @@ h2 {
     to {
         transform: scale(1);
     }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Rye, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+
+    width: 525px;
+    height: 225px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(200, 100, 100, .7);
+
+    bottom: 30px;
+    right: 300px;
+
+    position: absolute;
+
 }
