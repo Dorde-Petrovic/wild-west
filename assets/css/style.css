@@ -196,12 +196,29 @@ hr {
 /* facts about Wild West */
 
 #facts {
-    background-image: url('../images/cowboy.jpg');
+    margin-top: 75px;
+    background-image: url('../images/panorama.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     width: 100%;
     overflow: hidden;
+}
+
+#facts div {
+    background-color: #a87600b3;
+    width: 25%;
+    height: 225px;
+    float: left;
+    color: #331b10;
+    padding: 50px 0 0 10px;
+    text-align: center;
+    border: 2px solid #331b10;
+    box-sizing: border-box;
+}
+
+#facts h2 {
+    color: #331b10;
 }
 
 
