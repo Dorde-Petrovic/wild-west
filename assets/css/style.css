@@ -359,3 +359,18 @@ footer a:hover {
         column-count: 2;
     }
 }
+
+#vote {
+    height: 600px;
+    clear: both;
+    column-count: 2;
+    margin-bottom: 50px;
+}
+
+#vote img {
+    width: 100%;
+}
+
+#question {
+    text-align: center;
+}
