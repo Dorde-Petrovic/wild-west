@@ -21,6 +21,7 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #cdaa59;
+    margin-bottom: 5px;
 }
 
 #logo {
@@ -221,28 +222,40 @@ hr {
     color: #331b10;
 }
 
+p,
+#facts h3 {
+    font-size: 200%;
+    line-height: 30px;
+}
 
+/* footer */
 
+footer {
+    height: 150px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.copyright>li {
+    display: inline;
+    margin: 1%;
+    padding: 5%;
+    font-size: 140%;
+}
 
 footer a {
-    font-size: 200%;
+    font-size: 140%;
     line-height: 75px;
-
+    list-style-type: none;
     margin-right: 30px;
-
     text-decoration: none;
     color: inherit;
 }
 
-
-
-
-
-
-
-
-p,
-h3 {
-    font-size: 200%;
-    line-height: 30px;
+footer a:hover {
+    border-bottom: 1px solid darkgoldenrod;
 }
+
